@@ -38,7 +38,7 @@
           return (
             <div className="col-xs-4 col-sm-2">
               <a href={this.props.photo.link} target="_blank">
-                <img src={this.props.photo.images.thumbnail.url} title={this.props.photo.caption.text} className="img-thumbnail img-responsive"/>
+                <img src={this.props.photo.images.thumbnail.url} className="img-thumbnail img-responsive"/>
               </a>
             </div>
           );
